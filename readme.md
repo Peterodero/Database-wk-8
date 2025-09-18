@@ -35,29 +35,29 @@ A complete CRUD API for managing products and orders built with Node.js, Express
     You can then interact with the UI.The data is fetched from the database
 
 
- ## Viewing the databse
-  # On macOS (with Homebrew)
+ # Viewing the databse
+  ## On macOS (with Homebrew)
 brew install sqlite
 
-  # On Ubuntu/Debian
+  ## On Ubuntu/Debian
  sudo apt-get install sqlite3
 
- # On Windows
- # Download from: https://sqlite.org/download.html   
+ ## On Windows
+  Download from: https://sqlite.org/download.html   
 
 
- # Navigate to your project directory
+ ## Navigate to your project directory
 cd database-wk-8
 
-# Open the database
+## Open the database
 sqlite3 database.sqlite
 
-# Once in SQLite CLI, run these commands:
+## Once in SQLite CLI, run these commands:
 .tables                 # Show all tables
 .schema                 # Show database schema
 SELECT * FROM products; # View all products
 SELECT * FROM orders;   # View all orders
 SELECT * FROM order_items; # View order items
 
-# To exit SQLite CLI
+## To exit SQLite CLI
 .quit
